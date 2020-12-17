@@ -1,0 +1,13 @@
+@import "src/sass/colors";
+
+.Sidebar{
+    display: flex;
+    flex: 0.35;
+    flex-direction: column;
+    border-right: $border 0.1rem solid;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.4rem 0.8rem;
+    }
+}
