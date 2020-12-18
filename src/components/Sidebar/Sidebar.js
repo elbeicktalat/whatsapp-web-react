@@ -1,8 +1,9 @@
+import React, { Component } from 'react';
+import "./Sidebar.scss";
 import { Avatar, IconButton } from '@material-ui/core';
 import { Chat, DonutLarge, MoreVert } from '@material-ui/icons';
-import React, { Component } from 'react';
 import Alert from '../Alert/Alert';
-import "./Sidebar.scss";
+import Search from '../Search/Search';
 
 class Sidebar extends Component {
   render() {
@@ -24,6 +25,7 @@ class Sidebar extends Component {
         </div>
       </div>
       <Alert/>
+      <Search/>
     </div>;
   }
 }

@@ -1,0 +1,23 @@
+@import 'src/sass/colors';
+
+.Search{
+    display: flex;
+    background: $surface;
+    padding: 0.45rem 0.8rem;
+    .MuiSvgIcon-root{
+        font-size: 1.2rem;
+        color: $icons;
+    }
+    .content{
+        display: flex;
+        flex: 1;
+        background: $input;
+        border-radius: 1rem;
+        align-items: center;
+        padding: 0.3rem 0.8rem;
+        .input{
+            flex: .95;
+            margin-left: 1.6rem;
+        }
+    }
+}
