@@ -1,0 +1,33 @@
+@import 'src/sass/colors';
+
+.Footer{
+    display: flex;
+    background: $background;
+    align-items: center;
+    padding: 0.2rem;
+    .iconButtons{
+        display: flex;
+        .MuiSvgIcon-root{
+            color: $icons;
+            font-size: 1.6rem;
+        }   
+    }
+    #attachFile{
+        .MuiIconButton-root{
+            transform: rotate(145deg);
+        }
+    }
+    .input{
+        display: flex;
+        flex: 1;
+        background: $input;
+        padding: 0.6rem;
+        border-radius: 1rem;
+        margin: 0 0.5rem;
+        input{
+            flex: 1;
+            outline: none;
+            border: none;
+        }
+    }
+}
