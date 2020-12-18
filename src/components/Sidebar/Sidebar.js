@@ -8,6 +8,13 @@ import Contact from '../Contact/Contact';
 
 class Sidebar extends Component {
   render() {
+    //just for development 
+    let contact = <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>;
+    let contacts = [];
+    for (let i = 0; i < 20; i++) {
+    contacts.push(contact);  
+    }
+
     return <div className="Sidebar">
       <div className="header">
         <div className="avatar">
@@ -28,15 +35,8 @@ class Sidebar extends Component {
       <Alert/>
       <Search/>
       <div className="contactList">
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
-        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+         {/* here where the contacts will be fetched from database */}
+        {contacts}
       </div>
     </div>;
   }
