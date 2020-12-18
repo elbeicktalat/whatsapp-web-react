@@ -32,7 +32,9 @@ class Sidebar extends Component {
           </IconButton>
         </div>
       </div>
-      <Alert/>
+      <Alert style={}image=""
+      title="There are an update avelible" 
+      paregraph="Click here to update Whatsapp"/>
       <Search/>
       <div className="contactList">
          {/* here where the contacts will be fetched from database */}

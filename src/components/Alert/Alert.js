@@ -4,11 +4,13 @@ import "./Alert.scss";
 
 class Alert extends Component {
   render() {
-    return <div className="Alert">
-      <div className="avatar"><Avatar/></div>
+    return <div className="Alert" style={this.props.style}>
+      <div className="avatar">
+        <Avatar src={this.props.image}/>
+      </div>
       <div className="content">
-        <p className="title">There are an update avelible</p>
-        <p>Click here to update Whatsapp</p>
+        <p className="title">{this.props.title}</p>
+        <p>{this.props.paregraph}</p>
       </div>
     </div>;
   }
