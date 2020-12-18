@@ -1,6 +1,7 @@
 import { Avatar, IconButton } from '@material-ui/core';
 import { Chat, DonutLarge, MoreVert } from '@material-ui/icons';
 import React, { Component } from 'react';
+import Alert from '../Alert/Alert';
 import "./Sidebar.scss";
 
 class Sidebar extends Component {
@@ -22,6 +23,7 @@ class Sidebar extends Component {
           </IconButton>
         </div>
       </div>
+      <Alert/>
     </div>;
   }
 }

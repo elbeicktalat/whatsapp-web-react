@@ -2,12 +2,26 @@
 
 .Sidebar{
     display: flex;
-    flex: 0.35;
+    flex: 0.30;
     flex-direction: column;
     border-right: $border 0.1rem solid;
     .header{
         display: flex;
         justify-content: space-between;
-        padding: 0.4rem 0.8rem;
+        padding: 0.34rem 0.8rem;
+        align-items: center;
+        .avatar{
+            .MuiAvatar-root{
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+        .iconButtons{
+            display: flex;
+            .MuiSvgIcon-root{
+                color: $icons;
+                font-size: 1.2rem;
+            }
+        }
     }
 }

@@ -1,0 +1,28 @@
+@import "src/sass/colors";
+
+.Alert{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0.8rem;
+    background-color: $alert-notify;
+    .avatar{
+        margin-right: 0.8rem;
+        .MuiAvatar-root{
+            background-color: #fafafa;
+            color: $alert-notify;
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+    .content{
+        .title{
+            font-weight: bold;
+        }
+        p{
+            margin: 0.1rem 0;
+            font-size: 0.9rem;
+            color: $on-alert;
+            font-family: 'Fira Sans', sans-serif;
+        }
+    }
+}
