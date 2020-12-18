@@ -1,0 +1,28 @@
+@import 'src/sass/colors';
+
+.Header{
+    display: flex;
+    background-color: $background;
+    padding: 0.34rem 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    .info{
+        flex: 1;
+        color: $on-background-secondary;
+        margin-left: 0.8rem;
+        .name{
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .lastAccess{
+            font-size: 0.8rem;
+        }
+    }
+    .iconButtons{
+        display: flex;
+        .MuiSvgIcon-root{
+            color: $icons;
+            font-size: 1.2rem;
+        }
+    }
+}
