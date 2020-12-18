@@ -1,0 +1,36 @@
+@import 'src/sass/colors';
+
+.Contact{
+    display: flex;
+    .MuiButton-text{
+        flex: 1;
+        background: $contact;
+        align-items: center;
+        text-align: start;
+        text-transform: none;
+        padding: 0.62rem 0.8rem;
+        border-radius: 0;
+        border-top: $border 1px solid;
+        .content{
+            flex: 1;
+            margin-left: 1.1rem;
+            .info{
+                display: flex;
+                flex: 1;
+                justify-content: space-between;
+                .name{
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                }
+                .timeStamp{
+                    color: $on-background-secondary;
+                    font-size: 0.8rem;
+                }
+            }
+            .lastMessage{
+                color: $on-background-secondary;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

@@ -4,6 +4,7 @@ import { Avatar, IconButton } from '@material-ui/core';
 import { Chat, DonutLarge, MoreVert } from '@material-ui/icons';
 import Alert from '../Alert/Alert';
 import Search from '../Search/Search';
+import Contact from '../Contact/Contact';
 
 class Sidebar extends Component {
   render() {
@@ -26,6 +27,17 @@ class Sidebar extends Component {
       </div>
       <Alert/>
       <Search/>
+      <div className="contactList">
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+        <Contact name="El Beick Talat" timeStamp="16:35" lastMessage="Are you ok?"/>
+      </div>
     </div>;
   }
 }
