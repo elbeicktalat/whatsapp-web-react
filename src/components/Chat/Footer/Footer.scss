@@ -1,16 +1,17 @@
 @import 'src/sass/colors';
+@import 'src/sass/variables';
 
 .Footer{
     display: flex;
     background: $background;
     align-items: center;
     padding: 0.2rem;
+    .MuiSvgIcon-root{
+        color: $icons;
+        font-size: $icons-font-size;
+    }   
     .iconButtons{
         display: flex;
-        .MuiSvgIcon-root{
-            color: $icons;
-            font-size: 1.6rem;
-        }   
     }
     #attachFile{
         .MuiIconButton-root{

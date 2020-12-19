@@ -1,11 +1,13 @@
 @import 'src/sass/colors';
+@import 'src/sass/variables';
+
 
 .Search{
     display: flex;
     background: $surface;
     padding: 0.45rem 0.8rem;
     .MuiSvgIcon-root{
-        font-size: 1.2rem;
+        font-size: $icons-font-size;
         color: $icons;
     }
     .content{

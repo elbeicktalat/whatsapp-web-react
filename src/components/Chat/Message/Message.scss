@@ -1,4 +1,5 @@
 @import 'src/sass/colors';
+@import 'src/sass/variables';
 
 .Message{
     display: flex;
@@ -8,11 +9,11 @@
     padding: 0.4rem 0.8rem;
     border-radius: 0.5rem;
     align-items: flex-end;
-    font-size: 0.8rem;
+    font-size: $font-size;
     max-width: 25rem;
     margin-bottom: 0.8rem;
     .timeStamp{
-        font-size: xx-small;
+        font-size: $time-font-size;
         margin-left: 0.8rem;
     }
 }

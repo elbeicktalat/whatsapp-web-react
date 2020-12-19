@@ -1,4 +1,5 @@
 @import 'src/sass/colors';
+@import 'src/sass/variables';
 
 .Contact{
     display: flex;
@@ -11,6 +12,10 @@
         padding: 0.62rem 0.8rem;
         border-radius: 0;
         border-top: $contact-border 1px solid;
+        .MuiAvatar-root{
+            width: $avatar-size;
+            height: $avatar-size;
+        }
         .content{
             flex: 1;
             margin-left: 1.1rem;
@@ -19,17 +24,17 @@
                 flex: 1;
                 justify-content: space-between;
                 .name{
-                    font-size: 0.8rem;
+                    font-size: $font-size;
                     font-weight: bold;
                 }
                 .timeStamp{
                     color: $on-background-secondary;
-                    font-size: 0.8rem;
+                    font-size: $time-font-size;
                 }
             }
             .lastMessage{
                 color: $on-background-secondary;
-                font-size: 0.8rem;
+                font-size: $font-size;
             }
         }
     }

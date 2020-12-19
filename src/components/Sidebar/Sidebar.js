@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Sidebar.scss";
 import { Avatar, IconButton } from '@material-ui/core';
-import { Chat, DonutLarge, MoreVert } from '@material-ui/icons';
+import { Chat, DonutLarge, MoreVert, Refresh } from '@material-ui/icons';
 import Alert from '../Alert/Alert';
 import Search from '../Search/Search';
 import Contact from '../Contact/Contact';
@@ -32,7 +32,7 @@ class Sidebar extends Component {
           </IconButton>
         </div>
       </div>
-      <Alert image=""
+      <Alert image="" child={<Refresh/>}
       title="There are an update avelible" 
       paregraph="Click here to update Whatsapp"/>
       <Search/>
