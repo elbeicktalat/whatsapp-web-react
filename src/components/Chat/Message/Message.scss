@@ -1,0 +1,22 @@
+@import 'src/sass/colors';
+
+.Message{
+    display: flex;
+    background-color: $recived-message;
+    position: relative;
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    align-items: flex-end;
+    font-size: 0.8rem;
+    max-width: 25rem;
+    margin-bottom: 0.8rem;
+    .timeStamp{
+        font-size: xx-small;
+        margin-left: 0.8rem;
+    }
+}
+.sent-message{
+    margin-left: auto;
+    background: $sent-message;
+}

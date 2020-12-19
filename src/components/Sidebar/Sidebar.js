@@ -32,7 +32,7 @@ class Sidebar extends Component {
           </IconButton>
         </div>
       </div>
-      <Alert style={}image=""
+      <Alert image=""
       title="There are an update avelible" 
       paregraph="Click here to update Whatsapp"/>
       <Search/>
