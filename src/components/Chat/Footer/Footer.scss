@@ -18,17 +18,4 @@
             transform: rotate(145deg);
         }
     }
-    .input{
-        display: flex;
-        flex: 1;
-        background: $input;
-        padding: 0.6rem;
-        border-radius: 1rem;
-        margin: 0 0.5rem;
-        input{
-            flex: 1;
-            outline: none;
-            border: none;
-        }
-    }
 }

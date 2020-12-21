@@ -1,7 +1,8 @@
-import { IconButton, Input } from '@material-ui/core';
-import { Attachment, EmojiEmotions, Mic } from '@material-ui/icons';
+import { IconButton } from '@material-ui/core';
+import { Attachment, EmojiEmotions } from '@material-ui/icons';
 import React, { Component } from 'react';
 import './Footer.scss';
+import Form from './Form/Form';
 
 
 class Footer extends Component {
@@ -17,10 +18,7 @@ class Footer extends Component {
           </IconButton>
         </div>
       </div>
-      <div className="input">
-       <input type="text" placeholder="Type here your message"/>
-      </div>
-      <IconButton><Mic/></IconButton>
+      <Form/>
     </div>;
   }
 }

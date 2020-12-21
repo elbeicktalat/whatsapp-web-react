@@ -6,7 +6,7 @@
     display: flex;
     flex: 0.30;
     flex-direction: column;
-    border-right: $border 0.1rem solid;
+    background: $background;
     .header{
         display: flex;
         justify-content: space-between;
@@ -20,9 +20,19 @@
         }
         .iconButtons{
             display: flex;
+            align-items: center;
             .MuiSvgIcon-root{
                 color: $icons;
                 font-size: $icons-font-size;
+            }
+            .MuiSwitch-colorSecondary.Mui-checked{
+                color: $primery !important;
+            }
+            .MuiSwitch-colorSecondary.Mui-checked:hover{
+                background-color: #0095873b;
+            }
+            .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+                background-color: $primery !important;
             }
         }
     }
