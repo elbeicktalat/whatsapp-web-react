@@ -1,10 +1,11 @@
 @import 'src/sass/colors.scss';
+@import 'src/sass/public/theme';
 
 .app{
     display: grid;
     place-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom,  $primery 17.3%, $background 0%);
+    background: linear-gradient(to bottom,  $primery 17.3%, $background-body 0%);
     .body{
         display: flex;
         background-color: #ededed;

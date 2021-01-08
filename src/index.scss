@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import 'src/sass/colors';
+@import 'src/sass/variables';
+
 
 body {
     margin: 0;
@@ -14,3 +17,13 @@ body {
       monospace;
   }
   
+  
+  input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: $input;
+    color: $on-input;
+    font-size: 1rem;
+}
+

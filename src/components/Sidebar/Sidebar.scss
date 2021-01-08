@@ -7,35 +7,6 @@
     flex: 0.30;
     flex-direction: column;
     background: $background;
-    .header{
-        display: flex;
-        justify-content: space-between;
-        padding: $headers-padding;
-        align-items: center;
-        .avatar{
-            .MuiAvatar-root{
-                width: $avatar-size;
-                height: $avatar-size;
-            }
-        }
-        .iconButtons{
-            display: flex;
-            align-items: center;
-            .MuiSvgIcon-root{
-                color: $icons;
-                font-size: $icons-font-size;
-            }
-            .MuiSwitch-colorSecondary.Mui-checked{
-                color: $primery !important;
-            }
-            .MuiSwitch-colorSecondary.Mui-checked:hover{
-                background-color: #0095873b;
-            }
-            .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
-                background-color: $primery !important;
-            }
-        }
-    }
     .contactList{
         overflow: auto;
     }

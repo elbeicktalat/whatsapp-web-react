@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import "./Sidebar.scss";
-import { Avatar, IconButton, Switch } from '@material-ui/core';
-import { Chat, DonutLarge, MoreVert, Refresh } from '@material-ui/icons';
 import Alert from '../Alert/Alert';
 import Search from '../Search/Search';
 import Contact from '../Contact/Contact';
+import Header from './Header/Header';
+import { Refresh } from '@material-ui/icons';
 
 class Sidebar extends Component {
   render() {
@@ -16,23 +16,7 @@ class Sidebar extends Component {
     }
 
     return <div className="Sidebar">
-      <div className="header">
-        <div className="avatar">
-          <Avatar/>
-        </div>
-        <div className="iconButtons">
-          <IconButton>
-            <DonutLarge/>
-          </IconButton>
-          <IconButton>
-            <Chat/>
-          </IconButton>
-          <IconButton>
-            <MoreVert/>
-          </IconButton>
-          <Switch/>
-        </div>
-      </div>
+      <Header/>
       <Alert image="" child={<Refresh/>}
       title="There are an update avelible" 
       paregraph="Click here to update Whatsapp"/>

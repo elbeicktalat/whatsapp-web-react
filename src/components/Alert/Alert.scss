@@ -6,6 +6,7 @@
     align-items: center;
     padding: 1.1rem 0.8rem;
     background-color: $alert-notify;
+    color: $on-alert;
     .avatar{
         margin-right: 0.8rem;
         .MuiAvatar-root{
@@ -23,7 +24,6 @@
         p{
             margin: 0.2rem 0;
             font-size: $font-size;
-            color: $on-alert;
             font-family: 'Fira Sans', sans-serif;
         }
     }

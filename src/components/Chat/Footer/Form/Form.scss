@@ -12,16 +12,12 @@
             background: $input;
             padding: 0.6rem 1rem;
             border-radius: 1rem;
-            input{
-                flex: 1;
-                border: none;
-                outline: none;
-            }
         }
         button{
             outline: none;
             border: none;
             padding: 0 1rem;
+            background-color: transparent;
         }
     }
 }
